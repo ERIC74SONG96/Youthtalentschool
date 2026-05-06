@@ -161,6 +161,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Publicité - Préparation ESA ULB */}
+      <section className="py-12 px-6 bg-[#0b1c2d]">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white rounded-3xl p-6 md:p-8 shadow-2xl border-4 border-[#f2b705]">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 rounded-full bg-[#0b1c2d] flex items-center justify-center">
+                <BookOpen className="w-6 h-6 text-[#f2b705]" />
+              </div>
+              <div>
+                <p className="text-xs font-bold tracking-widest text-[#0b1c2d]/70">PUBLICITE</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-[#0b1c2d]">Preparation ESA - ULB 2026</h2>
+              </div>
+            </div>
+
+            <p className="text-[#0b1c2d] mb-4">
+              Rejoins notre preparation ciblee pour l examen special d admission (ESA) de l Ecole polytechnique de Bruxelles.
+              Nous proposons uniquement des seances d entrainement en petits groupes pour les epreuves de mathematiques.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-4 mb-6 text-sm">
+              <div className="rounded-xl bg-gray-50 p-4 border border-gray-200">
+                <p className="font-semibold text-[#0b1c2d] mb-1">Session 1</p>
+                <p className="text-gray-700">Preparation intensive avant la premiere quinzaine de juillet.</p>
+              </div>
+              <div className="rounded-xl bg-gray-50 p-4 border border-gray-200">
+                <p className="font-semibold text-[#0b1c2d] mb-1">Session 2</p>
+                <p className="text-gray-700">Preparation ciblee avant la premiere quinzaine de septembre.</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="#contact"
+                className="inline-block text-center bg-[#f2b705] text-[#0b1c2d] font-bold px-6 py-3 rounded-full hover:bg-[#d9a504] transition-colors"
+              >
+                Je m inscris a une seance
+              </a>
+              <a
+                href="https://polytech.ulb.be/fr/etudes/esa/dates"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-center border-2 border-[#0b1c2d] text-[#0b1c2d] font-semibold px-6 py-3 rounded-full hover:bg-[#0b1c2d] hover:text-white transition-colors"
+              >
+                Voir les dates officielles ULB
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Formules / Pricing Cards */}
       <section id="formules" className="py-12 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto">
