@@ -80,11 +80,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Pourquoi Youth Talent School */}
+      {/* Pourquoi Youthee Talent School */}
       <section id="pourquoi" className="py-12 px-6 bg-white">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold text-[#0b1c2d] text-center mb-10">
-            Pourquoi Youth Talent School ?
+            Pourquoi Youthee Talent School ?
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 rounded-2xl bg-gray-50 hover:shadow-lg transition-shadow">
@@ -341,7 +341,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="bg-[#071420] py-6 px-6 text-center">
         <p className="text-white/80 text-sm mb-2">
-          © 2026 Youth Talent School – youthtalentschool.be
+          © 2026 Youthee Talent School – youthtalentschool.be
         </p>
         <p className="text-white/50 text-xs">
           Ouverture officielle après obtention de la carte professionnelle

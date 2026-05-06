@@ -16,8 +16,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Youth Talent School | Cours de soutien scolaire à Bruxelles',
-  description: 'Youth Talent School – cours de soutien scolaire à Bruxelles. Groupes de 10 élèves, accompagnement sérieux pour mieux réussir.',
+  title: 'Youthee Talent School | Cours de soutien scolaire à Bruxelles',
+  description: 'Youthee Talent School – cours de soutien scolaire à Bruxelles. Groupes de 10 élèves, accompagnement sérieux pour mieux réussir.',
   generator: 'v0.app',
   icons: {
     icon: [
