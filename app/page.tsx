@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <a href="#" className="text-[#f2b705] font-bold text-xl">
-              Youthee Talent School
+              Youth Talent School
             </a>
             <div className="hidden md:flex items-center gap-8">
               <a href="#accueil" className="text-white hover:text-[#f2b705] transition-colors">Accueil</a>
